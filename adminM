@@ -1,0 +1,68 @@
+   (BUTTON) Toggle navigation [pin_100.png] Airflow
+     * DAGs
+     * Data Profiling
+          + Ad Hoc Query
+          + Charts
+          + Known Events
+     * Browse
+          + SLA Misses
+          + Task Instances
+          + Logs
+          + Jobs
+          + DAG Runs
+     * Admin
+          + Pools
+          + Configuration
+          + Users
+          + Connections
+          + Variables
+          + XComs
+     * Docs
+          + Website
+          + Documentation
+          + GitHub
+     * About
+          + Version
+
+     *
+
+     *
+
+   The scheduler does not appear to be running.
+
+   The DAGs list may not update, and new tasks will not be scheduled.
+
+DAGs
+
+   Search: ____________________
+                         DAG                      Schedule     Owner  Recent Tasks [loading.gif] Last Run DAG Runs [loading.gif] Links
+   [ ] example_bash_operator                   0 0 * * *      Airflow
+   [ ] example_branch_dop_operator_v3          */1 * * * *    Airflow
+   [ ] example_branch_operator                 @daily         Airflow
+   [ ] example_complex                         None           airflow
+   [ ] example_external_task_marker_child      None           airflow
+   [ ] example_external_task_marker_parent     None           airflow
+   [ ] example_http_operator                   1 day, 0:00:00 Airflow
+   [ ] example_kubernetes_executor_config      None           Airflow
+   [ ] example_nested_branch_dag               @daily         airflow
+   [ ] example_passing_params_via_test_command */1 * * * *    airflow
+   [ ] example_pig_operator                    None           Airflow
+   [ ] example_python_operator                 None           Airflow
+   [ ] example_short_circuit_operator          1 day, 0:00:00 Airflow
+   [ ] example_skip_dag                        1 day, 0:00:00 Airflow
+   [ ] example_subdag_operator                 @once          Airflow
+   [ ] example_trigger_controller_dag          @once          airflow
+   [ ] example_trigger_target_dag              None           Airflow
+   [ ] example_xcom                            @once          Airflow
+   [ ] latest_only                             4:00:00        airflow
+   [ ] latest_only_with_trigger                4:00:00        airflow
+   [ ] test_utils                              None           airflow
+   [ ] tutorial                                1 day, 0:00:00 airflow
+   Showing 1 to 22 of 22 entries
+     * «
+     * ‹
+     * 1
+     * ›
+     * »
+
+   Hide Paused DAGs
